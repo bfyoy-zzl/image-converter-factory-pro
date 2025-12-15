@@ -1,0 +1,23 @@
+# 1. 依赖库 (最重要！这个文件夹可能有几百MB，绝对不要上传)
+node_modules/
+
+# 2. 构建输出 (每次 npm run build/dist 都会生成，不需要上传)
+dist/
+release/
+
+# 3. 系统文件 (Mac/Windows 生成的缓存垃圾)
+.DS_Store
+Thumbs.db
+
+# 4. 环境变量 (如果有敏感key，绝对不能上传)
+.env
+.env.local
+
+# 5. 编辑器配置 (可选，通常不上传个人配置)
+.vscode/
+.idea/
+
+# 6. 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
