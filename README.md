@@ -1,6 +1,7 @@
-图片格式转换工厂 Pro (Image Converter Factory Pro)
+# 图片格式转换工厂 Pro (Image Converter Factory Pro)
 
-👉 点击查看交互式演示与文档 > (注意：如果是在 GitHub 页面直接点击，请确保该 HTML 文件已通过 GitHub Pages 部署，或者下载到本地查看)
+# 👉 [点击查看交互式演示与文档](https://bfyoy-zzl.github.io/image-converter-factory-pro/)
+
 
 一个基于 Electron + React 的现代化、高性能图片格式转换工具。支持批量处理、拖拽操作、多主题切换以及智能输出路径管理。
 
