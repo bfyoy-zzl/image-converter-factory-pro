@@ -4,7 +4,7 @@
 
 一个基于 Electron + React 的现代化、高性能图片格式转换工具。专为 PC 桌面环境设计，支持批量处理、拖拽操作、多主题切换以及智能输出路径管理。
 
-📥 下载安装 (Download)
+# 📥 下载安装 (Download)
 
 # 👉 [点击前往 GitHub Releases 页面下载最新版](https://github.com/bfyoy-zzl/image-converter-factory-pro/releases)
 
