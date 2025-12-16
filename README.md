@@ -1,11 +1,22 @@
-# 图片格式转换工厂 Pro (Image Converter Factory Pro)
+# 图片格式转换工厂 Pro (Image Converter Factory Pro) (PC 桌面版)
 
 # 👉 [点击查看交互式演示与文档](https://bfyoy-zzl.github.io/image-converter-factory-pro/)
 
+一个基于 Electron + React 的现代化、高性能图片格式转换工具。专为 PC 桌面环境设计，支持批量处理、拖拽操作、多主题切换以及智能输出路径管理。
 
-一个基于 Electron + React 的现代化、高性能图片格式转换工具。支持批量处理、拖拽操作、多主题切换以及智能输出路径管理。
+📥 下载安装 (Download)
+
+# 👉 [点击前往 GitHub Releases 页面下载最新版](https://github.com/bfyoy-zzl/image-converter-factory-pro/releases)
+
+我们提供两种 Windows 版本供选择：
+
+安装版 (Setup.exe): 推荐使用。包含安装向导，自动创建桌面快捷方式，体验更稳定。
+
+便捷版 (Portable.exe): 免安装单文件，即点即用，适合放在 U 盘随身携带。
 
 ✨ 功能特性
+
+PC 专属体验：专为 PC 桌面环境优化，充分利用电脑性能进行大批量处理，支持系统级拖拽交互与无边框窗口设计。
 
 多格式互转：支持 JPG, PNG, WEBP, BMP, TIFF 等常见格式。
 
@@ -29,7 +40,7 @@
 
 🚀 快速开始 (如何运行源码)
 
-如果你从 GitHub 下载了本项目的源码，请按照以下步骤配置环境。
+如果你从 GitHub 下载了本项目的源码（而不是安装包），请按照以下步骤配置开发环境。
 
 1. 环境准备
 
@@ -53,9 +64,9 @@ npm install
 npm start
 
 
-📦 如何打包 (生成 .exe)
+📦 如何自行打包 (生成 .exe)
 
-如果你想生成可以在 Windows 上安装或直接运行的 .exe 文件：
+如果你想自己生成安装包：
 
 编译前端资源：
 
@@ -70,58 +81,11 @@ npm run dist
 
 
 获取结果：
-打包完成后，请查看项目目录下的 release 文件夹：
+打包完成后，请查看项目目录下的 release 文件夹，文件名已包含 Windows 标识方便区分：
 
-ImageConverterFactoryPro-Setup-2.1.1.exe: 安装包版本。
+ImageConverterFactoryPro-Windows-Setup-2.1.1.exe: 安装包版本。
 
-ImageConverterFactoryPro-Portable-2.1.1.exe: 便捷免安装版。
-
-📂 版本控制 (如何上传至 GitHub)
-
-本项目包含 README.md 说明文件，上传至 GitHub 后会直接在仓库首页显示。请按照以下步骤将包含 README 在内的所有源码上传。
-
-1. 准备工作
-
-在 GitHub 上创建一个空仓库（不要勾选 "Add a README file" 或 .gitignore，因为本地已经有了）。
-
-确保项目根目录下有 .gitignore 文件（防止上传 node_modules 等垃圾文件）。
-
-.gitignore 内容示例：
-
-# 依赖库 (必须忽略)
-node_modules/
-
-# 构建输出 (必须忽略)
-dist/
-release/
-
-# 系统文件
-.DS_Store
-Thumbs.db
-
-# 环境变量与日志
-.env
-npm-debug.log*
-
-
-2. 初始化并推送
-
-在 VS Code 终端中依次执行以下命令：
-
-# 1. 初始化 Git 仓库
-git init
-
-# 2. 添加所有文件 (这一步会将 README.md 和源码一起添加)
-git add .
-
-# 3. 提交更改到本地
-git commit -m "Initial commit: 上传源码和说明文档"
-
-# 4. 关联远程仓库 (请替换为你自己的 GitHub 仓库地址)
-git remote add origin [https://github.com/你的用户名/仓库名.git](https://github.com/你的用户名/仓库名.git)
-
-# 5. 推送到 GitHub
-git push -u origin main
+ImageConverterFactoryPro-Windows-Portable-2.1.1.exe: 便捷免安装版。
 
 
 🛠️ 技术栈
@@ -136,5 +100,5 @@ Image Processing: Sharp
 
 Packaging: Electron Builder
 
-👤 作者:伯符yoy
-
+👤 作者
+   伯符yoy
